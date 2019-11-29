@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+ background: url("img/naranja.jpg") 15% center;
+}
+#principal{
+    width: 950px;
+    height: 700px;
+    margin: auto;
+}
+header{
+    background: white;
+    height: 50px;
+    line-height:50px;
+    margin-bottom: 5px;
+    box-shadow: 
+}
+header h1{
+    font-family: 'lobster';
+    float: left;
+    color: teal;
+    text-shadow: 0 0 1px darkorange;
+    margin-left: 10px;
+}
+header nav{
+    float: right;
+    margin-right: 5px;
+}
+header nav ul li{
+    display:inline-block;
+    padding: 0 5px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #333;
+    transition: all 0.5s;
+}
+header nav ul li a:hover{
+    color: teal;
+}
+main{
+    height: 150px;
+    background: url("img/naranja.jpg") 15% center;
+    margin-bottom: 5px;
+}
+section{
+    width: 1500px;
+    height: 1500px;
+    background: white;
+    box-shadow: 0 0 2px #ccc;
+    float: left;
+}
+video{
+    top: 550;
+}
+inframe{
+    width: 250;
+    height: 250;
+    position: inherit
+}
+footer{
+    clear: both;
+    height: 50px;
+}
+
